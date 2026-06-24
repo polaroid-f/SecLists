@@ -11,6 +11,7 @@ upload/admin/model/setting/extension.php
 upload/admin/model/setting/module.php
 upload/admin/model/setting/setting.php
 upload/admin/model/setting/startup.php
+upload/admin/model/setting/ssr.php
 upload/admin/model/setting/store.php
 upload/admin/model/setting/cron.php
 upload/admin/model/setting/task.php
@@ -55,6 +56,7 @@ upload/admin/model/user/user_group.php
 upload/admin/model/user/user.php
 upload/admin/model/user/api.php
 upload/admin/model/design/template.php
+upload/admin/model/design/sass.php
 upload/admin/model/design/layout.php
 upload/admin/model/design/seo_url.php
 upload/admin/model/design/translation.php
@@ -251,12 +253,14 @@ upload/admin/view/template/marketplace/marketplace_extension.twig
 upload/admin/view/template/marketplace/marketplace_info.twig
 upload/admin/view/template/marketplace/api.twig
 upload/admin/view/template/marketplace/promotion.twig
+upload/admin/view/template/marketplace/ssr.twig
 upload/admin/view/template/marketplace/startup.twig
 upload/admin/view/template/marketplace/marketplace_list.twig
 upload/admin/view/template/marketplace/startup_list.twig
 upload/admin/view/template/marketplace/installer_extension.twig
 upload/admin/view/template/marketplace/task_list.twig
 upload/admin/view/template/marketplace/cron_list.twig
+upload/admin/view/template/marketplace/ssr_list.twig
 upload/admin/view/template/cms/antispam_form.twig
 upload/admin/view/template/cms/topic_list.twig
 upload/admin/view/template/cms/comment_list.twig
@@ -405,6 +409,7 @@ upload/admin/view/template/design/translation.twig
 upload/admin/view/template/design/translation_list.twig
 upload/admin/view/template/design/seo_url_form.twig
 upload/admin/view/template/design/template_list.twig
+upload/admin/view/template/design/sass.twig
 upload/admin/view/template/design/seo_regex.twig
 upload/admin/view/template/design/seo_url_list.twig
 upload/admin/view/template/design/layout.twig
@@ -810,6 +815,7 @@ upload/admin/language/en-gb/marketplace/promotion.php
 upload/admin/language/en-gb/marketplace/installer.php
 upload/admin/language/en-gb/marketplace/startup.php
 upload/admin/language/en-gb/marketplace/marketplace.php
+upload/admin/language/en-gb/marketplace/ssr.php
 upload/admin/language/en-gb/marketplace/cron.php
 upload/admin/language/en-gb/marketplace/task.php
 upload/admin/language/en-gb/marketplace/api.php
@@ -863,6 +869,7 @@ upload/admin/language/en-gb/user/profile.php
 upload/admin/language/en-gb/user/user.php
 upload/admin/language/en-gb/user/api.php
 upload/admin/language/en-gb/design/template.php
+upload/admin/language/en-gb/design/sass.php
 upload/admin/language/en-gb/design/layout.php
 upload/admin/language/en-gb/design/seo_url.php
 upload/admin/language/en-gb/design/translation.php
@@ -1004,6 +1011,7 @@ upload/admin/controller/marketplace/promotion.php
 upload/admin/controller/marketplace/installer.php
 upload/admin/controller/marketplace/startup.php
 upload/admin/controller/marketplace/marketplace.php
+upload/admin/controller/marketplace/ssr.php
 upload/admin/controller/marketplace/cron.php
 upload/admin/controller/marketplace/task.php
 upload/admin/controller/marketplace/api.php
@@ -1063,13 +1071,12 @@ upload/admin/controller/user/user_permission.php
 upload/admin/controller/user/user.php
 upload/admin/controller/user/api.php
 upload/admin/controller/design/template.php
+upload/admin/controller/design/sass.php
 upload/admin/controller/design/layout.php
 upload/admin/controller/design/seo_url.php
 upload/admin/controller/design/translation.php
 upload/admin/controller/design/banner.php
 upload/admin/controller/design/seo_regex.php
-upload/admin/controller/task/ssr/comment.php
-upload/admin/controller/task/ssr/customer_group.php
 upload/admin/controller/task/admin/subscription.php
 upload/admin/controller/task/admin/language.php
 upload/admin/controller/task/admin/sass.php
@@ -1095,6 +1102,7 @@ upload/admin/controller/task/catalog/country.php
 upload/admin/controller/task/catalog/banner.php
 upload/admin/controller/task/catalog/Information.php
 upload/admin/controller/task/catalog/product.php
+upload/admin/controller/task/catalog/store.php
 upload/admin/controller/task/catalog/topic.php
 upload/admin/controller/task/catalog/location.php
 upload/admin/controller/task/catalog/manufacturer.php
